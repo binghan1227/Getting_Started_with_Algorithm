@@ -34,6 +34,9 @@ This section lists highly recommended platforms, books, and tools for practice a
 
 ### Binary Search
 
+[Wikipedia](https://en.wikipedia.org/wiki/Binary_search)
+[CP](https://cp-algorithms.com/num_methods/binary_search.html)
+
 A powerful search algorithm that finds the position of a target value within a sorted array by repeatedly dividing the search interval in half.
 
 - [Problem 1](https://codeforces.com/contest/1173/problem/C)
@@ -53,9 +56,13 @@ A programming language feature that allows you to define custom behavior for ope
 
 ### Merge Sort
 
+[Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
+
 An efficient, stable, comparison-based sorting algorithm that works by dividing an array into halves, sorting them recursively, and then merging the sorted halves.
 
 ### Heap (Priority Queues)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Heap_(data_structure))
 
 A specialized tree-based data structure that satisfies the heap property. It's perfect for efficiently finding and extracting the minimum or maximum element.
 
@@ -65,6 +72,9 @@ A specialized tree-based data structure that satisfies the heap property. It's p
 
 A technique that converts a string into a numeric value (a hash) to allow for fast comparisons. Polynomial rolling hash is a common and powerful method used to solve many problems involving string matching and palindromes.
 
+[Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
+[CP](https://cp-algorithms.com/string/string-hashing.html)
+
 - [Problem 1](https://codeforces.com/contest/1200/problem/E)
 - [Problem 2](https://www.spoj.com/problems/ADACLEAN/)
 
@@ -72,10 +82,15 @@ A technique that converts a string into a numeric value (a hash) to allow for fa
 
 An efficient string-searching algorithm that preprocesses the pattern to skip unnecessary comparisons, achieving linear time complexity.
 
+[Wikipedia](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+[CP](https://cp-algorithms.com/string/prefix-function.html)
+
 - [Problem 1](https://www.spoj.com/problems/ADAPET/)
 - [Problem 2](https://codeforces.com/contest/808/problem/G)
 
 ### Z Algorithm
+
+[CP](https://cp-algorithms.com/string/z-function.html)
 
 Creates an array (the Z-array) where `Z[i]` is the length of the longest common prefix between the original string and the suffix starting at `i`. Useful for various pattern-matching problems.
 
@@ -84,9 +99,14 @@ Creates an array (the Z-array) where `Z[i]` is the length of the longest common 
 
 ### Trie (Prefix Tree)
 
+[Wikipedia](https://en.wikipedia.org/wiki/Trie)
+
 A tree-like data structure that stores a dynamic set of strings, enabling fast retrieval and prefix-based searches.
 
 ### Aho-Corasick Algorithm
+
+[Wikipedia](https://en.wikipedia.org/wiki/Aho–Corasick_algorithm)
+[CP](https://cp-algorithms.com/string/aho_corasick.html)
 
 A string-searching algorithm that can find all occurrences of a set of keywords in a text simultaneously. It combines a trie with failure links, similar to KMP.
 
@@ -99,6 +119,11 @@ A string-searching algorithm that can find all occurrences of a set of keywords 
 
 Two fundamental graph traversal algorithms. DFS explores as far as possible along each branch before backtracking, while BFS explores all neighbor nodes at the present depth prior to moving on to nodes at the next depth level.
 
+### Shortest Path (Dijkstra & Bellman–Ford & Johnson)
+
+- [Problem 1](http://www.spoj.com/problems/ADATRIP/)
+- [Probelm 2](http://codeforces.com/contest/144/problem/D)
+
 ### Tarjan's Algorithm for Strongly Connected Components (SCCs)
 
 A DFS-based algorithm that finds the strongly connected components (maximal subgraphs where every vertex is reachable from every other vertex) in a directed graph.
@@ -106,13 +131,12 @@ A DFS-based algorithm that finds the strongly connected components (maximal subg
 - [Problem 1](https://www.spoj.com/problems/ADAPANEL/)
 - [Problem 2](https://codeforces.com/problemset/problem/427/C)
 
-### Tarjan's Algorithm for Articulation Points
+### Spanning Tree (Prim & Kruskal)
 
-An algorithm to find all vertices (articulation points or cut vertices) in a graph whose removal would increase the number of connected components.
+A minimum spanning tree (MST) is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight.
 
-### Tarjan's Algorithm for Bridges
-
-An algorithm to find all edges (bridges) in a graph whose removal would increase the number of connected components.
+- [Problem 1](http://codeforces.com/contest/908/problem/F)
+- [Problem 2](http://codeforces.com/contest/76/problem/A)
 
 ### Topological Sorting
 
@@ -121,6 +145,9 @@ A linear ordering of vertices in a directed acyclic graph (DAG) such that for ev
 ## Data Structure
 
 ### Segment Tree
+
+[Wikipedia](https://en.wikipedia.org/wiki/Segment_tree)
+[CP](https://cp-algorithms.com/data_structures/segment_tree.html)
 
 A versatile tree-based data structure that allows for efficient range queries (e.g., sum, min, max) and point updates on an array.
 
@@ -146,8 +173,8 @@ Structures where modifying the data structure creates a new version while keepin
 A technique that divides an array into blocks of size  
 sqrt(N) to perform range queries and updates. It's often simpler to implement than more complex structures like segment trees and can be surprisingly versatile.
 
-[Problem 1](https://codeforces.com/problemset/problem/920/F) (also can be done by using segment tree)
-[Problem 2 (Mo's algorithm)](https://codeforces.com/problemset/problem/617/E)
+- [Problem 1](https://codeforces.com/problemset/problem/920/F) (also can be done by using segment tree)
+- [Problem 2 (Mo's algorithm)](https://codeforces.com/problemset/problem/617/E)
 
 ## Mathematical Concepts
 
